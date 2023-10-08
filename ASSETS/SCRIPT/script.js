@@ -1,5 +1,5 @@
 function calcular () {
-    const tope = 10
+    
     let entry = parseInt(document.getElementById("entrada").value);
     let entry2 = parseInt(document.getElementById("entrada2").value);
     let entry3 = parseInt(document.getElementById("entrada3").value);
