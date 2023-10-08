@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./ASSETS/CSS/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <section class="card">
+            <img class="imagen" src="https://placedog.net/650/480?random" alt="perro1">
+            <input class="entry" id="entrada" type="number"  value="0">
+            <h2 class="texto"> <span id="total"></span> stickers</h2>
+            <button class="summit" id="agregar" onclick="Add()">
+            <h2>Agregar</h2>
+            </button>
+
+            <button class="summit" id="quitar" onclick="removerItem()"
+  ">
+                Remover items
+            </button>
+
+        
+        </section>
+        <section class="card2">
+            <img class="imagen2" src="https://placedog.net/670/480?random" alt="perro2">
+            <input class="entry2" id="entrada2" type="number"  value="0">
+            <h2 class="texto"><span id="total2"></span> stickers</h2>
+            <button class="summit" onclick="Add2()">
+                                <h2>Agregar</h2>
+            <button class="summit" onclick="removerItem2()">
+                                   Remover items
+            </button>
+            </button>
+        </section>
+        <section class="card3">
+            <img class="imagen3" src="https://placedog.net/690/480?random" alt="perro3">
+            <input class="entry3"onfocus="marcar(this) id="entrada3" type="number"  value="0">
+            <h2 class="texto"><span id="total3"></span> stickers</h2>
+            <button class="summit" onclick="Add3()">
+            <h2>Agregar</h2>
+            <button class="summit" onclick="removerItem3()">
+                                   Remover items
+            </button>
+            ">                    
+            </button>
+        </section>
+       
+        
+            <p class="title">
+            <button id="sumar" class="summit" onclick="calcular()">
+               <h2>Comprar</h2>
+            </button>
+            Total: <span id="spTotal" ></span></p>
+        
+    </div>
+
+    <section class="container2">
+
+        
+        </h1>
+        <img class="Banner" src="https://placedog.net/660/480?random " alt="Banner" onclick="
+                               let Banner = document.querySelector('.Banner');
+       Banner.classList.add('rojo');
+       Banner.addEventListener('click', function(e){
+        Banner.classList.remove('rojo')
+
+
+});
+
+            ">
+            
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum, animi necessitatibus tempora sapiente fugiat eveniet suscipit tenetur assumenda, quasi accusantium saepe non? Officiis temporibus quasi tempora commodi omnis quidem voluptatum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, itaque? Harum tempore tempora velit nam reiciendis inventore doloremque blanditiis, hic fuga magni maxime animi quas sit modi deserunt amet mollitia.</p>
+
+    </section>
+
+    <section class="valid">
+        <h2 style="color: rgb(182, 221, 155);" id="password">Ingrese el password</h2>
+<div class="continer3">
+    <select id="option1">
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+</select>
+<select id="option2">
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+</select>
+
+<select id="option3">
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+</select>
+</div>
+<button class="summitPassword" onclick="verificar()
+">
+    <p>Ingresar</p>
+</button>
+
+
+</section>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> 
+
+ <script src="./assets/script/script.js"></script>
+</body>
+</html>

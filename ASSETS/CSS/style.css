@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+img {
+    
+    height: 20rem;
+    border: 0.50rem solid;
+    border-color: black;
+    border-radius: 0.25rem;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.container2 {
+    background-color: burlywood;
+    display: flex;
+    align-content: center;
+    columns:100% ;
+    align-items: center;
+
+}
+
+.container2 p {
+    color: rgb(13, 86, 65);
+    margin: 2rem;
+    
+}
+
+
+.Banner {
+    
+    cursor:pointer; cursor: hand;
+    margin: 10px;
+}
+
+.rojo {
+    width: 30rem;
+border: 0.50rem solid;
+border-color: rgb(249, 0, 0);
+border-radius: 0.25rem;
+box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+.imagen:hover {filter: grayscale(40%);}
+
+
+.texto {
+    margin: 0.5rem;
+    color: rgb(255, 186, 10);
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-areas: "card card2 card3"
+                        "title title title";
+                        
+}
+
+.card {
+    grid-area: card;
+    align-items: center;
+    background-color: rgb(121, 136, 106);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+    flex-direction: column;
+
+}
+
+
+
+.card2 {
+   
+    grid-area: card2;
+ align-items: center;
+ background-color: rgb(121, 136, 106);
+ display: flex;
+ justify-content: center;
+ text-align: center;
+ flex-direction: column;
+ margin: 0;
+  
+}
+
+.card3 {
+   
+   
+    grid-area: card3;
+    align-items: center;
+    background-color: rgb(121, 136, 106);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+    flex-direction: column;   
+    
+}
+
+.entry {
+    width: 15rem;
+    height: 2rem;
+    margin: 0.5rem;
+    margin-top: 2rem;
+    border-radius: 0.25rem;
+    
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+input[type=number] { -moz-appearance:textfield; }
+
+.entry2 {
+    width: 15rem;
+    height: 2rem;
+    margin: 0.5rem;
+    margin-top: 2rem;
+    border-radius: 0.25rem;
+}
+.entry3 {
+    width: 15rem;
+    height: 2rem;
+    margin: 0.5rem;
+    margin-top: 2rem;
+    border-radius: 0.25rem;
+}
+
+.summit {
+    height: 2rem;
+    width: 15rem;
+    cursor:pointer; cursor: hand;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    
+}
+
+.title {
+    grid-area: title;
+    margin: 0px;
+    text-align: center;
+    color: rgb(255, 221, 0);
+    font-size: 62px;
+    background-color: darkolivegreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+}
+.valid {
+    background-color: darkolivegreen;
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+   
+}
+.container3 {
+    margin: 9px;
+}
+
+.summitPassword {
+    height: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 12px;
+}
